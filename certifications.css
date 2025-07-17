@@ -1,0 +1,71 @@
+/* certifications.css */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.navbar {
+  background-color: #1e293b;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #60a5fa;
+}
+
+.certification-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #cbd5e1;
+}
+
+.cert-card {
+  background-color: #1e293b;
+  border-left: 4px solid #8b5cf6;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+}
+
+.cert-card h2 {
+  font-size: 1.3rem;
+  color: #c084fc;
+  margin-bottom: 0.4rem;
+}
+
+.cert-card p {
+  margin: 0.3rem 0;
+  color: #94a3b8;
+}
+
+.cert-card .year {
+  color: #60a5fa;
+  font-weight: bold;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1e293b;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
