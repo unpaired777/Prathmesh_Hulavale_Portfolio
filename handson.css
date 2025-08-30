@@ -1,0 +1,12 @@
+/* Custom Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  transition: color 0.3s ease-in-out;
+}
+
+iframe {
+  border: none;
+}
